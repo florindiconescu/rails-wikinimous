@@ -1,0 +1,20 @@
+// Place all the styles related to the articles controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0 5px;
+  border-bottom: 1px solid lightgray;
+  color: rgb(120, 120, 120);
+  background-color: rgb(240, 240, 240);
+}
+
+.article {
+  width: 700px;
+  margin: 0 auto;
+}
+.article h1 {
+  border-bottom: 1px solid lightgray;
+}

@@ -1,0 +1,11 @@
+<div class="header">
+<h4>Wikinimous</h4>
+<h4>New Article</h4>
+</div>
+<div class="article">
+<% @articles.each do |article| %>
+<h2><%= link_to article.title , article_path(article), method: :get %></h2>
+<p><%= article.content %></p>
+
+<% end %>
+</div>

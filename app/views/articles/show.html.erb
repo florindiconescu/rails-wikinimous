@@ -1,0 +1,14 @@
+<div class="header">
+<h4>Wikinimous</h4>
+<h4>New Article</h4>
+</div>
+<div class="article">
+<h1><%= @article.title %>  <%= link_to "🖊", edit_article_path(@article), method: :get %>  <%= link_to "✃", article_path(@article), method: :delete, data: {confirm: 'are you sure bro?'} %></h1>
+<p><%= @article.content %></p>
+<h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus, reiciendis, repudiandae maiores possimus eveniet itaque nihil nisi deleniti illo id velit? Repudiandae possimus quidem illo vel est, deserunt a illum.</h4>
+<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et qui fugit quas doloremque rem porro, minus vero, distinctio veritatis architecto aliquid, perspiciatis fugiat ipsam placeat! Ea sunt veniam, magnam delectus!</span><span>Ab eveniet eaque distinctio est unde reiciendis ipsum deserunt dolores quia dolore. Assumenda dicta incidunt enim quibusdam officia maxime exercitationem tempore repellat maiores, nulla aspernatur quia, ratione error facilis nam?</span></p>
+<h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam similique, nesciunt, aliquam suscipit quaerat enim pariatur maiores saepe, corporis maxime a ipsam dolorem. Magni sint, reiciendis nisi placeat deserunt eaque?</h4>
+<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, adipisci odit eius iusto exercitationem corporis nulla amet animi incidunt esse excepturi soluta perferendis hic perspiciatis eveniet, quas quia suscipit molestiae.</span>
+<span>Quis cumque officia provident itaque, excepturi eius molestiae ex aspernatur obcaecati fugit iste quia distinctio inventore, mollitia ullam. Alias molestias esse, animi porro repellendus laudantium soluta quam facere velit mollitia!</span>
+<span>Beatae fuga incidunt quisquam iure dolorum iusto nobis optio nulla alias, voluptatibus aliquid eius necessitatibus, excepturi vel nihil sequi omnis, unde repellat sunt esse. Aspernatur id saepe omnis qui sapiente.</span></p>
+</div>
